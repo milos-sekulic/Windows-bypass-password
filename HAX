@@ -1,0 +1,32 @@
+first on pc where you forgot password you need to hold shift and press restart .
+it will open windows recovery environment then you need to find cmd- advanced , advanced - command prompt. 
+
+it will be possitioned on recovery environment disk, you need to change it to C: or D: where the user you made is 
+it usually is on C: where system 32 is . 
+to change location you need to press: 
+- C: and then enter
+- dir ( to see folders that are there ( you need to see windows , program files, users there )
+
+After you find it you need to find system32 its usually located in 
+C:\Windows\System32 
+then enter this line 
+- copy C:\Windows\System32\sethc.exe C:\ (coppies this file directly to C:, you will see 1 file copied message)
+After that you need to overwrite it by typing 
+- copy /y C:\Windows\System32\cmd.exe C:\Windows\System32\sethc.exe
+
+Then exit that cmd and restart pc. When it boots you can enter diretly to cmd 
+- press SHIFT 5 times 
+it opens cmd ,
+- net user (you list all users and find one that you want to change password to) 
+- net user 'Username' *
+then it will ask you to input your password. 
+
+when you chnge it restart pc and then you log into it with new password
+
+IMPORTANT 
+After all this go in cmd to restole original files so noone can open cmd using shift key 5 times. 
+- copy /y C:\sethc.exe C:Windows\System32\sethc.exe
+- del C:\sethc.exe
+
+ako ovo ne radi moras u settings da udjes i da nadjes system > search developer > SUDO 
+i prije ove dvije komande da uneses samo sudo 
