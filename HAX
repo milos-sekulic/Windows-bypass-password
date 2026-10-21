@@ -32,7 +32,11 @@ ako ovo ne radi moras u settings da udjes i da nadjes system > search developer 
 i prije ove dvije komande da uneses samo sudo 
 
 ====================================================================================================
-ZA intelove neke procesore je sakriven Disk partition (C:) i ne moze da se pristupi C particiiji bez skidanja nvme appa za provjeru 
-ako je user dodat preko nekog drugog rofila recimo microsofta onda moramo da odradimo 
+ZA intelove neke procesore je sakriven Disk partition (C:) i ne moze da se pristupi C particiiji bez skidanja nvme appa za update diska ( da se prikaze na disk scan) 
+
+ako je user dodat preko nekog drugog profila recimo microsofta onda moramo da odradimo 
 net user administrator /active:yes
 da bi se dodao na glavnu stranicu pa tek onda od njega sifra da se mijenja 
+- ovo moze biti problem jer ako ima neku vrstu zastite onda nece moci da se prikaze admin nalog ( ili ako admin nalog ima sifru) 
+
+
