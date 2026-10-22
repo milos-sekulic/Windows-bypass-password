@@ -39,4 +39,8 @@ net user administrator /active:yes
 da bi se dodao na glavnu stranicu pa tek onda od njega sifra da se mijenja 
 - ovo moze biti problem jer ako ima neku vrstu zastite onda nece moci da se prikaze admin nalog ( ili ako admin nalog ima sifru) 
 
+windows 10 home - zavisi od laptopa ili kompa koji je u pitanju , na milicin na primjer nije moglo kroz cmd da se udje odma na C: disk nego sam morao vnme da downloadujem na sajt  da bi moga kroz cmd da pristupim disku. 
+(Intel Rapid Storage Technology (RST) VMD driver) u milicinom slucaju sam ovaj morao da instaliram.
+windows 10 pro - na moj komp npr nisam mogao u cmd da udjem sve dok ne unesem sifru za laptop. 
+windows 11 - najlaganiji za provalit odma je uslo u cmd bez ikakve muke. 
 
